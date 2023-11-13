@@ -1,4 +1,4 @@
-# Lenovo-V1000-FHD黑苹果 CLOVER 5155 EFI
+# Lenovo-V1000-FHD黑苹果 CLOVER 5156 EFI
 
 # 适配 macOS Monterey 12.7
 
