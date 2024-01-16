@@ -1,6 +1,6 @@
 # Lenovo-V1000-FHD黑苹果 CLOVER 5156 EFI
 
-# 适配 macOS Monterey 12.7.2
+# 适配 macOS Monterey 12.7.2（5157无法进系统）
 
 ## 电脑配置
 
