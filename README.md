@@ -1,13 +1,13 @@
 # Lenovo-V1000-FHD黑苹果 CLOVER 5156 EFI
 
-# 适配 macOS Monterey 12.7.4（5157无法进系统）
+# 适配 macOS Monterey 12.7.5（5157无法进系统）
 
 ## 电脑配置
 
 | 规格     | 详细信息                                                     |
 | -------- | ------------------------------------------------------------ |
 | 电脑型号 | [联想小新笔记本V1000 FHD](https://item.lenovo.com.cn/product/32518.html) |
-| 操作系统 | macOS Monterey 12.7.4                                        |
+| 操作系统 | macOS Monterey 12.7.5                                        |
 | 处理器   | [英特尔®酷睿 i7-4510U](https://ark.intel.com/content/www/cn/zh/ark/products/81015/intel-core-i7-4510u-processor-4m-cache-up-to-3-10-ghz.html) |
 | 内存     | Ramaxel Technology 4 GB 1600MHz DDR3L + Kingston 8GB 1600MHz DDR3L |
 | 硬盘     | 浦科特M6V-128G + 希捷1T                                      |

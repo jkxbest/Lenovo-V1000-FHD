@@ -1,0 +1,94 @@
+6:632  2:396  Found BIOS RSDP at fe020
+6:632  0:000  Printing ACPI tables from RSDP fe020 ...
+6:632  0:000   fe020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:632  0:000    (Xsdt: aaffe210, Rsdt: aaffe124)
+6:632  0:000    aaffe210: 'XSDT', 'CB-01', Rev: 1, Len: 196
+6:632  0:000    aaffe124: 'RSDT', 'CB-01', Rev: 1, Len: 116
+6:632  0:000    Tables in Xsdt: 20
+6:632  0:000    0. aaff7000: 'FACP', 'CB-01', Rev: 5, Len: 268
+6:632  0:000        (Dsdt: AAFE4000, Facs: AAFBA000, XDsdt: aafe4000, XFacs: 0)
+6:632  0:000        aafe4000: 'DSDT', 'CB-01', Rev: 2, Len: 62651
+6:634  0:001        aafba000: 'FACS', Ver: 2, Len: 64
+6:634  0:000    1. aaffd000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+6:634  0:000    2. aaffc000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+6:634  0:000    3. aaffa000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+6:634  0:000    4. aaff9000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+6:634  0:000    5. aaff8000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+6:634  0:000    6. aaff6000: 'HPET', 'CB-01', Rev: 1, Len: 56
+6:634  0:000    7. aaff5000: 'APIC', 'CB-01', Rev: 3, Len: 140
+6:634  0:000    8. aaff4000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+6:634  0:000    9. aafe3000: 'WDAT', 'CB-01', Rev: 1, Len: 548
+6:634  0:000    10. aafe0000: 'SSDT', 'CB-01', Rev: 1, Len: 8232
+6:634  0:000    11. aafde000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+6:634  0:000    12. aafdd000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+6:634  0:000    13. aafdb000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+6:634  0:000    14. aafda000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+6:634  0:000    15. aafd2000: 'SSDT', 'CB-01', Rev: 1, Len: 1337
+6:634  0:000    16. aafd1000: 'SSDT', 'CB-01', Rev: 1, Len: 2776
+6:634  0:000    17. aafcd000: 'SSDT', 'CB-01', Rev: 1, Len: 13560
+6:634  0:000    18. aafc9000: 'SSDT', 'CB-01', Rev: 1, Len: 8848
+6:634  0:000    19. aafcc000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+6:634  0:000  Found UEFI Acpi 2.0 RSDP at aaffe014
+6:634  0:000  Saving ACPI tables from RSDP aaffe014 to ACPI\origin ...
+6:634  0:000   aaffe014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+6:645  0:011    (Xsdt: aaffe210, Rsdt: aaffe124)
+6:645  0:000    aaffe210: 'XSDT', 'CB-01', Rev: 1, Len: 196 -> XSDT.aml
+6:649  0:003    aaffe124: 'RSDT', 'CB-01', Rev: 1, Len: 116 -> RSDT.aml
+6:653  0:004    Tables in Xsdt: 20
+6:653  0:000    0. aaff7000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+6:658  0:005        (Dsdt: AAFE4000, Facs: AAFBA000, XDsdt: aafe4000, XFacs: 0)
+6:658  0:000        aafe4000: 'DSDT', 'CB-01', Rev: 2, Len: 62651 -> DSDT.aml
+6:665  0:006        aafba000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+6:668  0:003    1. aaffd000: 'SLIC', 'CB-01', Rev: 1, Len: 374 -> SLIC.aml
+6:675  0:007    2. aaffc000: 'UEFI', 'CB-01', Rev: 1, Len: 566 -> UEFI.aml
+6:681  0:005    3. aaffa000: 'FPDT', 'CB-01', Rev: 1, Len: 68 -> FPDT.aml
+6:686  0:004    4. aaff9000: 'MSDM', 'CB-01', Rev: 3, Len: 85 -> MSDM.aml
+6:691  0:005    5. aaff8000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+6:695  0:003    6. aaff6000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+6:702  0:007    7. aaff5000: 'APIC', 'CB-01', Rev: 3, Len: 140 -> APIC.aml
+6:708  0:005    8. aaff4000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+6:714  0:006    9. aafe3000: 'WDAT', 'CB-01', Rev: 1, Len: 548 -> WDAT.aml
+6:719  0:004    10. aafe0000: 'SSDT', 'CB-01', Rev: 1, Len: 8232 -> SSDT-0-CB-01.aml
+6:725  0:005    11. aafde000: 'BOOT', 'CB-01', Rev: 1, Len: 40 -> BOOT.aml
+6:729  0:004    12. aafdd000: 'LPIT', 'CB-01', Rev: 1, Len: 148 -> LPIT.aml
+6:735  0:005    13. aafdb000: 'ASPT', 'CB-01', Rev: 7, Len: 52 -> ASPT.aml
+6:742  0:006    14. aafda000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+6:746  0:004    15. aafd2000: 'SSDT', 'CB-01', Rev: 1, Len: 1337 -> SSDT-1-CB-01.aml
+6:751  0:005    16. aafd1000: 'SSDT', 'CB-01', Rev: 1, Len: 2776 -> SSDT-2-CB-01.aml (Found hidden SSDT 4 pcs)
+6:755  0:004        * 2825067160: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+6:755  0:000        * 2867299864: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 B9 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+6:759  0:003        * 2867301400: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 99 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+6:764  0:004        * 2867297688: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 D5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+6:768  0:004  
+6:768  0:000    17. aafcd000: 'SSDT', 'CB-01', Rev: 1, Len: 13560 -> SSDT-3-CB-01.aml
+6:774  0:005    18. aafc9000: 'SSDT', 'CB-01', Rev: 1, Len: 8848 -> SSDT-4-CB-01.aml
+6:778  0:004    19. aafcc000: 'BGRT', 'CB-01', Rev: 1, Len: 56 -> BGRT.aml
+6:783  0:005  Found UEFI Acpi 1.0 RSDP at aaffe000
+6:783  0:000  Printing ACPI tables from RSDP aaffe000 ...
+6:783  0:000   aaffe000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+6:783  0:000    (Rsdt: aaffe038)
+6:783  0:000    aaffe038: 'RSDT', 'CB-01', Rev: 1, Len: 116
+6:783  0:000    Tables in Rsdt: 20
+6:783  0:000    0. aaff7000: 'FACP', 'CB-01', Rev: 5, Len: 268
+6:783  0:000        (Dsdt: AAFE4000, Facs: AAFBA000, XDsdt: aafe4000, XFacs: 0)
+6:783  0:000        aafe4000: 'DSDT', 'CB-01', Rev: 2, Len: 62651
+6:784  0:001        aafba000: 'FACS', Ver: 2, Len: 64
+6:784  0:000    1. aaffd000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+6:784  0:000    2. aaffc000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+6:784  0:000    3. aaffa000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+6:784  0:000    4. aaff9000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+6:784  0:000    5. aaff8000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+6:784  0:000    6. aaff6000: 'HPET', 'CB-01', Rev: 1, Len: 56
+6:784  0:000    7. aaff5000: 'APIC', 'CB-01', Rev: 3, Len: 140
+6:784  0:000    8. aaff4000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+6:784  0:000    9. aafe3000: 'WDAT', 'CB-01', Rev: 1, Len: 548
+6:784  0:000    10. aafe0000: 'SSDT', 'CB-01', Rev: 1, Len: 8232
+6:784  0:000    11. aafde000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+6:784  0:000    12. aafdd000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+6:784  0:000    13. aafdb000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+6:784  0:000    14. aafda000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+6:784  0:000    15. aafd2000: 'SSDT', 'CB-01', Rev: 1, Len: 1337
+6:784  0:000    16. aafd1000: 'SSDT', 'CB-01', Rev: 1, Len: 2776
+6:784  0:000    17. aafcd000: 'SSDT', 'CB-01', Rev: 1, Len: 13560
+6:784  0:000    18. aafc9000: 'SSDT', 'CB-01', Rev: 1, Len: 8848
+6:784  0:000    19. aafcc000: 'BGRT', 'CB-01', Rev: 1, Len: 56
